@@ -52,25 +52,19 @@ return [
 //                    ]
 //
 //                ],
-//                [
-//                    'class' => 'yii\rest\UrlRule',
-//                    'controller' => 'v1/video',
-//                    'extraPatterns' => [
-//                        'GET search' => 'search'
-//                    ]
-//                ],
+                [
+                    'class' => 'yii\rest\UrlRule',
+                    'controller' => 'v1/supplier',
+                    'extraPatterns' => [
+                        'GET catalog/<catalog>' => 'catalog'
+                    ]
+                ],
                 [
                     'class' => 'yii\rest\UrlRule',
                     'controller' => 'v1/user',
                     'tokens' => [
                         '{id}' => '<id:\\w+>'
                     ]
-//                    'except' => ['delete', 'create', 'update', 'index'],
-//                    'extraPatterns' => [
-//                        'POST login' => 'login',
-//                        'POST logout' => 'logout',
-//                        'POST forgot' => 'forgot',
-//                    ],
                 ]
 
             ],        

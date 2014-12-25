@@ -100,8 +100,13 @@ Then, you can login into the application with same email address and password at
 
 http://www.yiiframework.com/doc-2.0/guide-rest-quick-start.html
 
-http://localhost/spicemart/api/web/v1/apps
+#How to run
+Contact me
 
-http://localhost/spicemart/api/web/v1/tags
+#Get supplier by catalog
 
-http://localhost/spicemart/api/web/v1/videos
+http://localhost/REST_API/api/web/v1/suppliers/catalog/{catalog}
+
+#get all supplier
+
+http://localhost/REST_API/api/web/v1/suppliers
